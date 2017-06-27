@@ -1,4 +1,4 @@
-update=6/25/2017 12:08:11 PM
+update=6/26/2017 7:32:41 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -37,7 +37,7 @@ SpiceUseNetNumbers=0
 LabSize=60
 [eeschema]
 version=1
-LibDir=
+LibDir=C:/Users/Avery/Desktop/OpenDrop
 [eeschema/libraries]
 LibName1=OpenDropV2-ESP201-rescue
 LibName2=valves
@@ -72,3 +72,4 @@ LibName30=contrib
 LibName31=../KiCadLibrary/ESP8266
 LibName32=../KiCadLibrary/GaudiLabsPartsLibrary
 LibName33=../KiCadLibrary/arduino_micro_shield-master/arduino_micro_shield
+LibName34=ODF_Parts

@@ -1,0 +1,364 @@
+EESchema Schematic File Version 2
+LIBS:OpenDropV2-ESP201-rescue
+LIBS:valves
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:ESP8266
+LIBS:GaudiLabsPartsLibrary
+LIBS:arduino_micro_shield
+LIBS:ODF_Parts
+LIBS:OpenDropV2-ESP201-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SPST SW?
+U 1 1 59505ABE
+P 3600 2750
+F 0 "SW?" H 3600 2850 50  0000 C CNN
+F 1 "SPST" H 3600 2650 50  0000 C CNN
+F 2 "GaudiLabsFootPrints:Switch_On-On" H 3600 2750 60  0001 C CNN
+F 3 "" H 3600 2750 60  0000 C CNN
+	1    3600 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L DC_JACK J?
+U 1 1 59505AC5
+P 2900 2350
+F 0 "J?" H 3000 2500 50  0000 C CNN
+F 1 "DC_JACK" H 2900 2050 50  0000 C CNN
+F 2 "GaudiLabsFootPrints:DC_JACK_SMD" H 2900 2350 60  0001 C CNN
+F 3 "" H 2900 2350 60  0000 C CNN
+	1    2900 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CP C?
+U 1 1 59505ACC
+P 4500 2500
+F 0 "C?" H 4525 2600 50  0000 L CNN
+F 1 "100uF, 35V" H 4525 2400 50  0000 L CNN
+F 2 "Resistors_SMD:R_2512_HandSoldering" H 4538 2350 30  0001 C CNN
+F 3 "" H 4500 2500 60  0000 C CNN
+	1    4500 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C?
+U 1 1 59505AD3
+P 4000 4100
+F 0 "C?" H 4025 4200 50  0000 L CNN
+F 1 "10uF, 25V" V 3850 3900 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210_HandSoldering" H 4038 3950 30  0001 C CNN
+F 3 "" H 4000 4100 60  0000 C CNN
+	1    4000 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 59505ADA
+P 4450 4100
+F 0 "C?" H 4475 4200 50  0000 L CNN
+F 1 "100nF" H 4475 4000 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 4488 3950 30  0001 C CNN
+F 3 "" H 4450 4100 60  0000 C CNN
+	1    4450 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 59505AE1
+P 4800 4100
+F 0 "C?" H 4825 4200 50  0000 L CNN
+F 1 "100nF" H 4825 4000 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 4838 3950 30  0001 C CNN
+F 3 "" H 4800 4100 60  0000 C CNN
+	1    4800 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L MAX1771ESA U?
+U 1 1 59505AE8
+P 5650 3500
+F 0 "U?" H 5300 3900 50  0000 L CNN
+F 1 "MAX1771ESA" H 5750 3900 50  0000 L CNN
+F 2 "GaudiLabsFootPrints:SO08" H 5650 3400 50  0000 C CIN
+F 3 "" H 5650 3500 60  0000 C CNN
+	1    5650 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L INDUCTOR L?
+U 1 1 59505AEF
+P 5750 2250
+F 0 "L?" V 5900 2250 50  0000 C CNN
+F 1 "100uH" V 5700 2250 50  0000 C CNN
+F 2 "GaudiLabsFootPrints:Inductor_18.54x15.24" H 5750 2250 60  0001 C CNN
+F 3 "" H 5750 2250 60  0000 C CNN
+	1    5750 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D?
+U 1 1 59505AF6
+P 7000 2700
+F 0 "D?" H 7000 2550 50  0000 C CNN
+F 1 "ES2F" H 7000 2850 50  0000 C CNN
+F 2 "GaudiLabsFootPrints:DO-214AA" H 7000 2700 60  0001 C CNN
+F 3 "" H 7000 2700 60  0000 C CNN
+	1    7000 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Q_NMOS_GDS T?
+U 1 1 59505AFD
+P 6450 3300
+F 0 "T?" H 6500 3500 50  0000 R CNN
+F 1 "IRF 840S" H 6950 3200 50  0000 R CNN
+F 2 "GaudiLabsFootPrints:D2PAK" H 6800 3100 29  0001 C CNN
+F 3 "" H 6450 3300 60  0000 C CNN
+	1    6450 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C?
+U 1 1 59505B04
+P 7350 3500
+F 0 "C?" H 7375 3600 50  0000 L CNN
+F 1 "4u7, 250V" V 7200 3350 50  0000 L CNN
+F 2 "GaudiLabsFootPrints:C_SMD_12mm" H 7388 3350 30  0001 C CNN
+F 3 "" H 7350 3500 60  0000 C CNN
+	1    7350 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L POT-RESCUE-OpenDropV2 POT?
+U 1 1 59505B0B
+P 7850 3750
+F 0 "POT?" H 7850 3650 50  0000 C CNN
+F 1 "5k Ohm" H 7850 3750 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer-Suntan-TSR-3386P" H 7850 3750 60  0001 C CNN
+F 3 "" H 7850 3750 60  0000 C CNN
+	1    7850 3750
+	0    1    -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 59505B12
+P 7850 3050
+F 0 "R?" V 7750 3000 50  0000 C CNN
+F 1 "1M5" V 7950 3050 50  0000 C CNN
+F 2 "Resistors_SMD:R_2512" V 7780 3050 30  0001 C CNN
+F 3 "" H 7850 3050 30  0000 C CNN
+	1    7850 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R RSENSE?
+U 1 1 59505B19
+P 6550 4100
+F 0 "RSENSE?" V 6450 4100 50  0000 C CNN
+F 1 "0R050" V 6650 4100 50  0000 C CNN
+F 2 "Resistors_SMD:R_2010" V 6480 4100 30  0001 C CNN
+F 3 "" H 6550 4100 30  0000 C CNN
+	1    6550 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 59505B20
+P 7850 4250
+F 0 "R?" V 7750 4250 50  0000 C CNN
+F 1 "8k" V 7950 4250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 7780 4250 30  0001 C CNN
+F 3 "" H 7850 4250 30  0000 C CNN
+	1    7850 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 59505B27
+P 8250 3500
+F 0 "C?" H 8275 3600 50  0000 L CNN
+F 1 "100nF, 250V" V 8100 3300 50  0000 L CNN
+F 2 "GaudiLabsFootPrints:C100n_250V" H 8288 3350 30  0001 C CNN
+F 3 "" H 8250 3500 60  0000 C CNN
+	1    8250 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 59505B2E
+P 4500 2750
+F 0 "#PWR01" H 4500 2500 50  0001 C CNN
+F 1 "GND" H 4500 2600 50  0000 C CNN
+F 2 "" H 4500 2750 60  0000 C CNN
+F 3 "" H 4500 2750 60  0000 C CNN
+	1    4500 2750
+	1    0    0    -1  
+$EndComp
+Text Notes 7700 4050 1    60   ~ 0
+65-260VDC
+Text GLabel 8500 2700 2    60   Input ~ 0
+V_HV
+$Comp
+L GND #PWR02
+U 1 1 59505B36
+P 3100 2850
+F 0 "#PWR02" H 3100 2600 50  0001 C CNN
+F 1 "GND" H 3100 2700 50  0000 C CNN
+F 2 "" H 3100 2850 60  0000 C CNN
+F 3 "" H 3100 2850 60  0000 C CNN
+	1    3100 2850
+	1    0    0    -1  
+$EndComp
+Text GLabel 2650 3500 0    60   Input ~ 0
+VIN
+Text Notes 3950 2000 0    98   ~ 0
+High Voltage Generator\n
+Text GLabel 8800 3350 2    60   Input ~ 0
+V_READ_HV
+Wire Wire Line
+	3600 2250 5450 2250
+Connection ~ 4500 2250
+Wire Wire Line
+	4000 2250 4000 3950
+Connection ~ 4000 2250
+Wire Wire Line
+	3750 4500 8250 4500
+Wire Wire Line
+	4000 4250 4000 4500
+Connection ~ 4000 4500
+Wire Wire Line
+	4450 4250 4450 4500
+Connection ~ 4450 4500
+Wire Wire Line
+	5150 3300 3750 3300
+Wire Wire Line
+	3750 3300 3750 4500
+Wire Wire Line
+	4000 3000 5650 3000
+Connection ~ 4000 3000
+Wire Wire Line
+	4500 2250 4500 2350
+Wire Wire Line
+	4500 2650 4500 2750
+Wire Wire Line
+	4450 3950 4450 3000
+Connection ~ 4450 3000
+Wire Wire Line
+	4800 4250 4800 4500
+Connection ~ 4800 4500
+Wire Wire Line
+	5150 3500 4800 3500
+Wire Wire Line
+	4800 3500 4800 3950
+Wire Wire Line
+	5150 3700 5150 4500
+Connection ~ 5150 4500
+Connection ~ 5650 4500
+Wire Wire Line
+	6550 3500 6550 3950
+Connection ~ 6550 3500
+Wire Wire Line
+	6550 4250 6550 4500
+Connection ~ 6550 4500
+Wire Wire Line
+	6150 3300 6250 3300
+Wire Wire Line
+	6150 3500 6550 3500
+Wire Wire Line
+	6050 2250 6550 2250
+Wire Wire Line
+	6550 2250 6550 3100
+Wire Wire Line
+	6850 2700 6550 2700
+Connection ~ 6550 2700
+Wire Wire Line
+	7150 2700 8500 2700
+Wire Wire Line
+	7350 2700 7350 3350
+Wire Wire Line
+	7350 3650 7350 4500
+Connection ~ 7350 4500
+Wire Wire Line
+	7850 2700 7850 2900
+Connection ~ 7350 2700
+Wire Wire Line
+	7850 3200 7850 3500
+Wire Wire Line
+	7850 4000 7850 4100
+Wire Wire Line
+	7850 4400 7850 4500
+Connection ~ 7850 4500
+Wire Wire Line
+	8000 3750 8000 4050
+Wire Wire Line
+	8000 4050 7850 4050
+Connection ~ 7850 4050
+Wire Wire Line
+	8250 2700 8250 3350
+Connection ~ 7850 2700
+Wire Wire Line
+	8250 4500 8250 3650
+Connection ~ 8250 2700
+Wire Wire Line
+	7600 3350 8800 3350
+Wire Wire Line
+	7600 3350 7600 3700
+Wire Wire Line
+	7600 3700 6150 3700
+Connection ~ 7850 3350
+Wire Wire Line
+	3600 3250 2900 3250
+Wire Wire Line
+	2900 2650 2900 3500
+Wire Wire Line
+	3100 2650 3100 2850
+Wire Wire Line
+	3000 2650 3000 2750
+Wire Wire Line
+	3000 2750 3100 2750
+Connection ~ 3100 2750
+Wire Wire Line
+	2900 3500 2650 3500
+Connection ~ 2900 3250
+$EndSCHEMATC
